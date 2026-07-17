@@ -15,31 +15,25 @@ echo   IGV 批量导航器 %VERSION% - 构建脚本
 echo ========================================
 echo.
 
-@REM echo [1/3] 安装 PyInstaller...
-@REM C:\Users\xuxi\ImJoyApp\miniconda3\python.exe -m pip install pyinstaller pillow requests -q -i https://pypi.tuna.tsinghua.edu.cn/simple
-@REM if %errorlevel% neq 0 (
-@REM     echo 安装失败，请检查 pip 是否可用。
-@REM     pause
-@REM     exit /b 1
-@REM )
-@REM echo 完成。
-@REM echo.
+echo [1/3] 安装依赖...
+pip install pyinstaller PyQt5 requests openpyxl pillow -q
+if %errorlevel% neq 0 (
+    echo 依赖安装失败，请检查 pip 是否可用。
+    pause
+    exit /b 1
+)
+echo 完成。
+echo.
 
-@REM @REM echo [2/3] 生成图标...
-@REM @REM C:\Users\xuxi\ImJoyApp\miniconda3\python.exe generate_icon.py
-@REM @REM if %errorlevel% neq 0 (
-@REM @REM     echo 图标生成失败，将使用默认图标继续构建。
-@REM @REM )
-@REM @REM echo.
-echo [1/3] 清理上次构建残留...
+echo [2/3] 清理上次构建残留...
 if exist "dist" rd /s /q "dist"
 if exist "build" rd /s /q "build"
 if exist "IGV_Batch_Navigator_*.spec" del /q "IGV_Batch_Navigator_*.spec"
 echo 完成。
 echo.
 
-echo [2/3] 构建 exe (单文件/无控制台)...
-C:\Users\xuxi\ImJoyApp\miniconda3\Scripts\pyinstaller.exe --onefile --windowed --icon=icon.ico --name="IGV_Batch_Navigator_%VERSION%" --hidden-import=requests --hidden-import=PyQt5.sip --hidden-import=sip ^
+echo [3/4] 构建 exe (单文件/无控制台)...
+pyinstaller --onefile --windowed --icon=icon.ico --name="IGV_Batch_Navigator_%VERSION%" --hidden-import=requests --hidden-import=PyQt5.sip --hidden-import=sip ^
     --add-data="igv_core.py;." ^
     --add-data="tsv_csv_parser.py;." ^
     --add-data="settings_manager.py;." ^

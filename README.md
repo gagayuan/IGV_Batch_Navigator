@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/version-V260716-blue" alt="Version">
   <img src="https://img.shields.io/badge/python-3.7+-green" alt="Python">
   <img src="https://img.shields.io/badge/platform-Windows-lightgrey" alt="Platform">
-  <img src="https://img.shields.io/badge/license-MIT-yellow" alt="License">
+  <img src="https://img.shields.io/badge/license-GPL%20v3-blue" alt="License">
 </p>
 
 <details open>
