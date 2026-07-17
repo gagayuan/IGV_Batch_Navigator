@@ -194,7 +194,7 @@ K 关系体现在：
 
 ## 联系方式
 
-有问题请联系 **中科苏州智能计算技术研究院 徐锡** — [xuxi@iict.ac.cn](mailto:xuxi@iict.ac.cn)
+有任何问题或者有新的需求合作意向请联系 **中科苏州智能计算技术研究院 徐锡** — [xuxi@iict.ac.cn](mailto:xuxi@iict.ac.cn)
 
 </details>
 
@@ -387,6 +387,6 @@ After clicking "Parse":
 
 ## Contact
 
-For questions, contact **Xu Xi, Zhongke Suzhou Intelligent Computing Technology Research Institute** — [xuxi@iict.ac.cn](mailto:xuxi@iict.ac.cn)
+For any questions or new collaboration inquiries, contact **Xu Xi, Zhongke Suzhou Intelligent Computing Technology Research Institute** — [xuxi@iict.ac.cn](mailto:xuxi@iict.ac.cn)
 
 </details>
