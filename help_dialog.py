@@ -175,7 +175,7 @@ class HelpDialog(QDialog):
         # ── 英文 HTML ──
         self._html_en = f"""
 <h2>IGV Batch Navigator {VERSION}</h2>
-<p>Developed by <strong>Zhongke Suzhou Intelligent Computing Technology Research Institute</strong>,
+<p>Developed by <strong>Institute of Intelligent Computing Technology, Suzhou, CAS (IICT)</strong>,
 this tool switches IGV chromosome loci and track files in batches.
 It supports TSV/CSV/XLSX table parsing, manual input, and sample-BAM smart matching (K-relation),
 significantly accelerating manual review of genomic data.</p>
@@ -321,7 +321,7 @@ significantly accelerating manual review of genomic data.</p>
 
 <hr>
 <p style="color:#888;">
-  For questions, contact Xu Xi, Zhongke Suzhou Intelligent Computing Technology Research Institute <a href="mailto:xuxi@iict.ac.cn">xuxi@iict.ac.cn</a>
+  For questions, contact Xu Xi, Institute of Intelligent Computing Technology, Suzhou, CAS (IICT) <a href="mailto:xuxi@iict.ac.cn">xuxi@iict.ac.cn</a>
 </p>
 """
 

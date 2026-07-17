@@ -203,7 +203,7 @@ K 关系体现在：
 
 # IGV Batch Navigator
 
-Developed by **Zhongke Suzhou Intelligent Computing Technology Research Institute**, this tool switches [IGV](https://igv.org) chromosome loci and track files in batches. It supports TSV/CSV/XLSX table parsing, manual input, and sample-BAM smart matching (K-relation), significantly accelerating manual review of genomic data.
+Developed by **Institute of Intelligent Computing Technology, Suzhou, CAS (IICT)**, this tool switches [IGV](https://igv.org) chromosome loci and track files in batches. It supports TSV/CSV/XLSX table parsing, manual input, and sample-BAM smart matching (K-relation), significantly accelerating manual review of genomic data.
 
 ---
 
@@ -387,6 +387,6 @@ After clicking "Parse":
 
 ## Contact
 
-For any questions or new collaboration inquiries, contact **Xu Xi, Zhongke Suzhou Intelligent Computing Technology Research Institute** — [xuxi@iict.ac.cn](mailto:xuxi@iict.ac.cn)
+For any questions or new collaboration inquiries, contact **Xu Xi, Institute of Intelligent Computing Technology, Suzhou, CAS (IICT)** — [xuxi@iict.ac.cn](mailto:xuxi@iict.ac.cn)
 
 </details>
